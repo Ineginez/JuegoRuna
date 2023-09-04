@@ -26,13 +26,9 @@ Algoritmo Runas
 	runa23<- "Runa Isa "
 	runa24<- "Runa Sowelu "
 	runa25<- "Runa Odin "
-	
-	
 	numAleatorio <- Azar(25)  // Genera un número aleatorio entre 1 y 25
-	
-	Escribir "Una runa al azar ha sido elegida:"
-	
-	Segun numAleatorio Hacer
+		Escribir "Una runa al azar ha sido elegida:"
+		Segun numAleatorio Hacer
 		1:
 			Escribir runa1
 			infoRuna <- 1
@@ -109,10 +105,8 @@ Algoritmo Runas
 		25:
 			Escribir runa25
 			infoRuna <- 25
-			
 	Fin Segun
-	
-	Si infoRuna > 0 Entonces
+		Si infoRuna > 0 Entonces
 		Segun infoRuna Hacer
 			1:
 				Escribir "La runa Mannaz: Solidaridad, humanismo, el Ser Superior, conciencia, intelecto, sabiduría colectiva e individual."
@@ -164,7 +158,7 @@ Algoritmo Runas
 				Escribir "La runa Sowelu : Luz, plenitud, gratitud, energía solar, victoria y éxito."
 			25:
 				Escribir "La runa Odin : El gran misterio, energía universal."
-				
-		Fin Segun
+			
+                Fin Segun
 	Fin Si
 FinAlgoritmo
